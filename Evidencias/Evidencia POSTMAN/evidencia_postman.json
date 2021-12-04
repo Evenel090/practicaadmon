@@ -1,0 +1,1171 @@
+{
+	"info": {
+		"_postman_id": "34dc279c-ea68-4ce6-bb5a-fe9f42dbdc53",
+		"name": "gorest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Consulta Lista de usuarios fallido",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://gorest.co.in/public/v1/users&page=20",
+					"protocol": "https",
+					"host": [
+						"gorest",
+						"co",
+						"in"
+					],
+					"path": [
+						"public",
+						"v1",
+						"users&page=20"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Consulta Lista de usuarios fallido",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://gorest.co.in/public/v1/users&page=20",
+							"protocol": "https",
+							"host": [
+								"gorest",
+								"co",
+								"in"
+							],
+							"path": [
+								"public",
+								"v1",
+								"users&page=20"
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 28 Nov 2021 17:22:13 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "strict-origin-when-cross-origin"
+						},
+						{
+							"key": "Link",
+							"value": "</assets/application-5a840a9125a4350d18430fb903d8677df6b2fa447d42eef3ff54d343991ce288.css>; rel=preload; as=style; nopush,</packs/js/application-ff3698c9dbc7c0826e3e.js>; rel=preload; as=script; nopush"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache"
+						},
+						{
+							"key": "Feature-Policy",
+							"value": "camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'; payment 'none'"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "_gorest_co_in_session=PyvTEaVUM7ML6vLFC%2BPAslUHleseAHWcreZIzDMHc8ykj1XrpGKB%2BohlFxqmFV0Zo1WoIJLlWvTvZ6C7oLmLSpxlLr6NRwJQ7kSpC3uPXAB9t2muq1AHo9G9ac90k1Kt9svp11XK1QzjR8bNPXeaDmCytl38hf%2FNb9PubEYi9EhFCbSs%2ByjN0epfeCpiFxWaf6K9toqX95PxPNqgTz0B3vUmI35n%2Fna3q9mQnQd%2Fp%2BwJ1WRizCy54jgtrvyk9jv%2FvwXcrtV4knh5o%2BmH2%2F0opYz%2F5SjtZtot8tLt3W4%3D--DlHtk%2FNc9JjZztJs--E66dlK2VKYVJ32UI%2F24aaA%3D%3D; path=/; secure; HttpOnly; SameSite=Lax"
+						},
+						{
+							"key": "X-Request-Id",
+							"value": "aaae61bc-da0f-4e0a-9267-e3155da8a4f3"
+						},
+						{
+							"key": "X-Runtime",
+							"value": "0.006430"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=63072000; includeSubDomains"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						}
+					],
+					"cookie": [],
+					"body": "<!DOCTYPE html>\n<html>\n    <head>\n        <meta charset=\"utf-8\" />\n        <meta content=\"width=device-width, initial-scale=1, shrink-to-fit=no\" name=\"viewport\" />\n        <link href=\"/favicon.ico\" rel=\"icon\" type=\"image/x-icon\" />\n        <title>Page Not Found | GO REST</title>\n        <meta name=\"csrf-param\" content=\"authenticity_token\" />\n        <meta name=\"csrf-token\" content=\"iuGwXseXq7JWzbMJcaIbJiFUytOBt84Q1LF-J13aTgKZTrcjzavaNMg58I-tVdd3eoG3KA18bz0NZhpifOtqAw\" />\n        <link rel=\"stylesheet\" media=\"all\" href=\"/assets/application-5a840a9125a4350d18430fb903d8677df6b2fa447d42eef3ff54d343991ce288.css\" data-turbolinks-track=\"reload\" />\n        <script src=\"/packs/js/application-ff3698c9dbc7c0826e3e.js\" data-turbolinks-track=\"reload\"></script>\n        <script async=\"true\" crossorigin=\"anonymous\" src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4930099895671899\"></script>\n    </head>\n    <body>\n        <div class=\"navbar navbar-expand-lg navbar-dark bg-dark fixed-top\">\n            <div class=\"container\">\n                <a class=\"navbar-brand\" href=\"/\">\n                    <i class=\"fas fa-exchange-alt\"></i> Go Rest\n                </a>\n                <button aria-controls=\"navbarResponsive\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" class=\"navbar-toggler\" data-target=\"#navbarResponsive\" data-toggle=\"collapse\" type=\"button\">\n                    <span class=\"navbar-toggler-icon\"></span>\n                </button>\n                <div class=\"collapse navbar-collapse\" id=\"navbarResponsive\">\n                    <ul class=\"navbar-nav ml-auto\">\n                        <li class=\"nav-item\">\n                            <a class=\"nav-link\" href=\"/chandamama-stories\">\n                                <i class=\"fas fa-cloud-moon\"></i> Chandamama Stories\n                            </a>\n                        </li>\n                        <li class=\"nav-item\">\n                            <a class=\"nav-link\" href=\"/rest-console\">\n                                <i class=\"fab fa-linux\"></i> Rest Console\n                            </a>\n                        </li>\n                        <li class=\"nav-item dropdown\">\n                            <a class=\"nav-link dropdown-toggle\" data-toggle=\"dropdown\" area=\"expanded false\" href=\"#\">\n                                <i class=\"fas fa-tools\"></i> Tools\n                                <span class=\"caret\"></span>\n                            </a>\n                            <div class=\"dropdown-menu\">\n                                <a class=\"dropdown-item\" href=\"/tools/base64-encode-decode\">Base64 Encode/Decode</a>\n                                <a class=\"dropdown-item\" href=\"/tools/url-encode-decode\">Url Encode/Decode</a>\n                                <a class=\"dropdown-item\" href=\"/tools/gcode-translator\">G-Code Translator</a>\n                            </div>\n                        </li>\n                        <li class=\"nav-item\">\n                            <a class=\"nav-link\" href=\"/consumer/login\">Login</a>\n                        </li>\n                    </ul>\n                </div>\n            </div>\n        </div>\n        <div class=\"container\">\n            <style type=\"text/css\">.code-text code {color: #bdbdbd;display: block;}.code-text code b {color: #81a2be;font-weight: 900;}.code-text code em {color: #b294bb;font-style: unset;}.code-text code i {color: #b5bd68;}.code-text code span {color: #f0c674;}</style>\n            <div class=\"p-5\">\n                <h1 class=\"text- display-3 mb-3 text-danger\" style=\"font-weight: 900; letter-spacing: 2px;\">\n                    <i class=\"fas fa-ghost mr-3\"></i>HTTP: 404\n                </h1>\n                <h3 class=\"leaad code-text mb-5\">\n                    <code class=\"mb-3\">\n                        <span>this_page</span>.\n                        <em>not_found</em> = true\n                    </code>\n                </h3>\n                <p class=\"lead code-text\">\n                    <code class=\"mb-2\">\n                        <span>if</span>\n                        <b>you_spelt_it_wrong</b>\n                        <br />&nbsp;&nbsp;\n                        <span>then_try_again</span>\n                        <br />\n                    </code>\n                    <code class=\"mb-2\">\n                        <span>elsif \n                            <b>we_screwed_up</b>\n                        </span>\n                        <br />&nbsp;&nbsp;\n                        <em>puts</em>\n                        <i>\"We're really sorry about that.\"</i>\n                        <br/>\n                    </code>\n                    <code class=\"mb-2\">\n                        <span>end</span>\n                    </code>\n                    <code class=\"mb-2\">\n                        <span>redirect_to</span>\n                        <em>home_page_url</em>\n                    </code>\n                </p>\n            </div>\n        </div>\n        <div class=\"container\">\n            <footer class=\"footer mt-5\">\n                <ul class=\"list-inline\">\n                    <li class=\"list-inline-item\">&copy; Go Rest 2021</li>\n                    <li class=\"list-inline-item float-lg-right\">\n                        <a href=\"/privacy-policy\">Privacy Policy</a>\n                    </li>\n                    <li class=\"list-inline-item float-lg-right mr-3\">\n                        <a href=\"/contact-us\">Contact Us</a>\n                    </li>\n                </ul>\n            </footer>\n        </div>\n    </body>\n</html>"
+				}
+			]
+		},
+		{
+			"name": "Consulta Lista de usuarios correcta",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://gorest.co.in/public/v1/users?&page=20",
+					"protocol": "https",
+					"host": [
+						"gorest",
+						"co",
+						"in"
+					],
+					"path": [
+						"public",
+						"v1",
+						"users"
+					],
+					"query": [
+						{
+							"key": null,
+							"value": null
+						},
+						{
+							"key": "page",
+							"value": "20"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Consulta Lista de usuarios correcta",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://gorest.co.in/public/v1/users?&page=20",
+							"protocol": "https",
+							"host": [
+								"gorest",
+								"co",
+								"in"
+							],
+							"path": [
+								"public",
+								"v1",
+								"users"
+							],
+							"query": [
+								{
+									"key": null,
+									"value": null
+								},
+								{
+									"key": "page",
+									"value": "20"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 28 Nov 2021 17:23:46 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "strict-origin-when-cross-origin"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"702e64dc02866354edf9c7c6cafdd655\""
+						},
+						{
+							"key": "Cache-Control",
+							"value": "max-age=0, private, must-revalidate"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "_gorest_co_in_session=XKaXlr0XgtDIC%2F1S%2BaMxL5FBdLSpPyJrQDYit%2BYgNzvWz87Xxc44S3R%2Bmy41iUxbbkKO8zloAFZBBfMrhKpvH6%2FLzoxA55fB%2FpBucCfXuQ8WJ5GX%2BfpSkmQ9lBV9iH%2FkxQug7hcuK1o7DxVBfcZSnE0M%2FjhVsD1DgF4%2BqykZ9%2FkwZ1R4GiR1C6k3N6nPwDHqrEDbYeAnzzQHJ8WAQfk75A7IWuhre2bI1xNht4AEr4KQkrE3EOVF3YKlPoBKY%2FqfYG1pQ5%2F1TM%2Fmec9lo9nwE%2Fxc01byeDzqNPp%2BRtY%3D--Anyef8KOGyLcfoql--ohpzYO2P1xVTSh7Gz119pw%3D%3D; path=/; secure; HttpOnly; SameSite=Lax"
+						},
+						{
+							"key": "X-Request-Id",
+							"value": "96c583a5-6c45-4aaa-af78-8e3587b3e677"
+						},
+						{
+							"key": "X-Runtime",
+							"value": "0.019328"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=63072000; includeSubDomains"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"meta\": {\n        \"pagination\": {\n            \"total\": 1867,\n            \"pages\": 94,\n            \"page\": 20,\n            \"limit\": 20,\n            \"links\": {\n                \"previous\": \"https://gorest.co.in/public/v1/users?page=19\",\n                \"current\": \"https://gorest.co.in/public/v1/users?page=20\",\n                \"next\": \"https://gorest.co.in/public/v1/users?page=21\"\n            }\n        }\n    },\n    \"data\": [\n        {\n            \"id\": 812,\n            \"name\": \"Ramesh Gupta\",\n            \"email\": \"gupta_ramesh@mraz-wisoky.name\",\n            \"gender\": \"male\",\n            \"status\": \"inactive\"\n        },\n        {\n            \"id\": 813,\n            \"name\": \"Trilochana Butt V\",\n            \"email\": \"trilochana_v_butt@carroll.name\",\n            \"gender\": \"male\",\n            \"status\": \"inactive\"\n        },\n        {\n            \"id\": 814,\n            \"name\": \"Aagney Pillai PhD\",\n            \"email\": \"phd_aagney_pillai@mann.biz\",\n            \"gender\": \"female\",\n            \"status\": \"active\"\n        },\n        {\n            \"id\": 815,\n            \"name\": \"Vishwamitra Iyengar PhD\",\n            \"email\": \"iyengar_phd_vishwamitra@hills.co\",\n            \"gender\": \"female\",\n            \"status\": \"inactive\"\n        },\n        {\n            \"id\": 816,\n            \"name\": \"Dulari Asan\",\n            \"email\": \"asan_dulari@stanton-krajcik.co\",\n            \"gender\": \"female\",\n            \"status\": \"inactive\"\n        },\n        {\n            \"id\": 817,\n            \"name\": \"Rev. Raj Naik\",\n            \"email\": \"rev_naik_raj@ryan-pouros.io\",\n            \"gender\": \"male\",\n            \"status\": \"active\"\n        },\n        {\n            \"id\": 818,\n            \"name\": \"Baalaaditya Talwar\",\n            \"email\": \"baalaaditya_talwar@haley-ebert.com\",\n            \"gender\": \"male\",\n            \"status\": \"inactive\"\n        },\n        {\n            \"id\": 819,\n            \"name\": \"Devangana Panicker\",\n            \"email\": \"devangana_panicker@hansen.io\",\n            \"gender\": \"male\",\n            \"status\": \"active\"\n        },\n        {\n            \"id\": 820,\n            \"name\": \"Daevika Kaniyar\",\n            \"email\": \"kaniyar_daevika@lemke.net\",\n            \"gender\": \"female\",\n            \"status\": \"active\"\n        },\n        {\n            \"id\": 821,\n            \"name\": \"Acharyasuta Pothuvaal\",\n            \"email\": \"pothuvaal_acharyasuta@baumbach.org\",\n            \"gender\": \"male\",\n            \"status\": \"active\"\n        },\n        {\n            \"id\": 822,\n            \"name\": \"Harita Pothuvaal\",\n            \"email\": \"pothuvaal_harita@kling.name\",\n            \"gender\": \"male\",\n            \"status\": \"inactive\"\n        },\n        {\n            \"id\": 823,\n            \"name\": \"Chidananda Deshpande\",\n            \"email\": \"chidananda_deshpande@stoltenberg.co\",\n            \"gender\": \"female\",\n            \"status\": \"active\"\n        },\n        {\n            \"id\": 824,\n            \"name\": \"Prof. Trisha Kaul\",\n            \"email\": \"kaul_trisha_prof@fay.io\",\n            \"gender\": \"female\",\n            \"status\": \"inactive\"\n        },\n        {\n            \"id\": 825,\n            \"name\": \"Mr. Jyotsana Reddy\",\n            \"email\": \"mr_jyotsana_reddy@hahn.info\",\n            \"gender\": \"male\",\n            \"status\": \"active\"\n        },\n        {\n            \"id\": 826,\n            \"name\": \"Pres. Deven Gandhi\",\n            \"email\": \"gandhi_deven_pres@grimes.name\",\n            \"gender\": \"female\",\n            \"status\": \"active\"\n        },\n        {\n            \"id\": 827,\n            \"name\": \"Abani Singh\",\n            \"email\": \"abani_singh@bernhard.info\",\n            \"gender\": \"female\",\n            \"status\": \"active\"\n        },\n        {\n            \"id\": 828,\n            \"name\": \"Rep. Ganak Kapoor\",\n            \"email\": \"kapoor_ganak_rep@lynch.com\",\n            \"gender\": \"male\",\n            \"status\": \"inactive\"\n        },\n        {\n            \"id\": 829,\n            \"name\": \"Satish Pilla\",\n            \"email\": \"pilla_satish@jaskolski-gutkowski.biz\",\n            \"gender\": \"female\",\n            \"status\": \"inactive\"\n        },\n        {\n            \"id\": 830,\n            \"name\": \"Drona Dhawan\",\n            \"email\": \"dhawan_drona@mante.info\",\n            \"gender\": \"male\",\n            \"status\": \"active\"\n        },\n        {\n            \"id\": 831,\n            \"name\": \"Ananda Pothuvaal\",\n            \"email\": \"pothuvaal_ananda@parisian.co\",\n            \"gender\": \"male\",\n            \"status\": \"inactive\"\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Editar usuario",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Oskar Sigo\",\r\n    \"status\": \"active\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://gorest.co.in/public/v1/users/831",
+					"protocol": "https",
+					"host": [
+						"gorest",
+						"co",
+						"in"
+					],
+					"path": [
+						"public",
+						"v1",
+						"users",
+						"831"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Editar usuario",
+					"originalRequest": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Oskar Sigo\",\r\n    \"status\": \"active\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://gorest.co.in/public/v1/users/831",
+							"protocol": "https",
+							"host": [
+								"gorest",
+								"co",
+								"in"
+							],
+							"path": [
+								"public",
+								"v1",
+								"users",
+								"831"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 28 Nov 2021 17:30:41 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "strict-origin-when-cross-origin"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"6fda140c66eb90c5217af9083adee784\""
+						},
+						{
+							"key": "Cache-Control",
+							"value": "max-age=0, private, must-revalidate"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "_gorest_co_in_session=ZZyWcEYQ6QsMfrtr1DRzLuqsv7yC5gTTjWY3xGL0Canq%2Fq1hwZv6GZdjkQxFiWqL64SwLN45GASVcvtzStpLA%2BMRBI07W5xiFsTd6tK6490UMhFBOqS8%2BEIzU%2BxCPE3zB1qsfsqNRFc%2BdEcVK8cH9wRX9CQtU93oK5ihJflMFG75wx%2BuaIx2GL13NSVLIqvOg1RME5LlZln44kpEvHyHjIxx7qwnAFtOmJyi3ZgGlRbIRHlO%2FMmqU6TJ5qVQk%2B7TstjhDwky%2FeKQcsB0ZG23S6vkEYljmhs18IUdCtg%3D--vJsCqeZEOJee%2FIYA--aP4uG46dZgcBIzMERZWapw%3D%3D; path=/; secure; HttpOnly; SameSite=Lax"
+						},
+						{
+							"key": "X-Request-Id",
+							"value": "8c9db8f7-c27c-42b4-acad-56334677efc9"
+						},
+						{
+							"key": "X-Runtime",
+							"value": "0.017641"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=63072000; includeSubDomains"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"meta\": null,\n    \"data\": {\n        \"name\": \"Oskar Sigo\",\n        \"status\": \"active\",\n        \"id\": 831,\n        \"email\": \"pothuvaal_ananda@parisian.co\",\n        \"gender\": \"male\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Eliminar usuario 829",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://gorest.co.in/public/v1/users/829",
+					"protocol": "https",
+					"host": [
+						"gorest",
+						"co",
+						"in"
+					],
+					"path": [
+						"public",
+						"v1",
+						"users",
+						"829"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Eliminar usuario 829",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://gorest.co.in/public/v1/users/829",
+							"protocol": "https",
+							"host": [
+								"gorest",
+								"co",
+								"in"
+							],
+							"path": [
+								"public",
+								"v1",
+								"users",
+								"829"
+							]
+						}
+					},
+					"status": "No Content",
+					"code": 204,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 28 Nov 2021 17:35:34 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "strict-origin-when-cross-origin"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "_gorest_co_in_session=spWozHFJa%2B1GDPYSSTllGI0fr0MSU284mWAq5C6LXzD5SFm7KYrpJpnf1a9r2gaodZ7WVSZfXyshcSRtI4c6noSAH7YW8xh%2Fe4H75htifQaF9T0t8%2B%2Bnv2e%2FCYNfiqoQjvfVS6KkyzAEHHRVsZkj2f%2Ft7Zp8bAXA1dikzTr8kcrjoGJImteE1hMz6O5PlgPhex9GkpFyWAvfREZIcbxQCD%2BQDPCWCo8G85wpHSaFvWXPjuCQ6KLs%2BrPrIOAMMy6dxZA6NkwWArWiMDh4DtcSE2s67ezis4xzLXu9Evs%3D--seWKC%2BWHgmuLhp%2F3--89uNSb37AQMAHBH%2BhpsHXA%3D%3D; path=/; secure; HttpOnly; SameSite=Lax"
+						},
+						{
+							"key": "X-Request-Id",
+							"value": "40fda201-5e78-48b7-8eee-089a7c66b633"
+						},
+						{
+							"key": "X-Runtime",
+							"value": "0.017067"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=63072000; includeSubDomains"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						}
+					],
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "Crear usuario",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Oskar2\",\r\n\"email\": \"oskar.2@example.com\",\r\n\"gender\": \"male\",\r\n\"status\": \"active\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://gorest.co.in/public/v1/users/",
+					"protocol": "https",
+					"host": [
+						"gorest",
+						"co",
+						"in"
+					],
+					"path": [
+						"public",
+						"v1",
+						"users",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Crear usuario",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Oskar2\",\r\n\"email\": \"oskar.2@example.com\",\r\n\"gender\": \"male\",\r\n\"status\": \"active\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://gorest.co.in/public/v1/users/",
+							"protocol": "https",
+							"host": [
+								"gorest",
+								"co",
+								"in"
+							],
+							"path": [
+								"public",
+								"v1",
+								"users",
+								""
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 28 Nov 2021 17:39:45 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "strict-origin-when-cross-origin"
+						},
+						{
+							"key": "Location",
+							"value": "https://gorest.co.in/public/v1/users/2611"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"ebf841042854f43e49ff5714ff96ddaa\""
+						},
+						{
+							"key": "Cache-Control",
+							"value": "max-age=0, private, must-revalidate"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "_gorest_co_in_session=o%2FCmaG%2F0CfOWhAM7oPWhFW1aPuRp%2BIW2Qd0%2F3GamS%2Beh4bkd%2BfPHDVQbgIV0t4oYJJ2%2FtAl8xtIXVBhz%2FcEAkKWW1%2FAaytnVW8Hq97GvXKlAQAj3ZFwaQBUq5hefZD6Ky9u%2FYB45FCdIDMRgzG6unT1yaCoPLpo%2FlLn0dCPbzNrTNO11kok%2FruLmJy4M4sXPaJfXjjtFkglJFJuEonr%2FwWpGQ5E3Youbmmr048cEQPIlhiYgejHeBcZFK%2FL7EacNgbWBhaMO9c%2BXbaTG1crEC0C1JcC02WFFD%2F2YPgI%3D--eH2AsjIi8mgFaUJa--RADkNrgsuURO2vPf6l%2BGzw%3D%3D; path=/; secure; HttpOnly; SameSite=Lax"
+						},
+						{
+							"key": "X-Request-Id",
+							"value": "150e1cc7-4ddd-4f1d-8fda-dde3f4f329b8"
+						},
+						{
+							"key": "X-Runtime",
+							"value": "0.018403"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=63072000; includeSubDomains"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"meta\": null,\n    \"data\": {\n        \"id\": 2611,\n        \"name\": \"Oskar2\",\n        \"email\": \"oskar.2@example.com\",\n        \"gender\": \"male\",\n        \"status\": \"active\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Consultar el usuario creado",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://gorest.co.in/public/v1/users/2611",
+					"protocol": "https",
+					"host": [
+						"gorest",
+						"co",
+						"in"
+					],
+					"path": [
+						"public",
+						"v1",
+						"users",
+						"2611"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Consultar el usuario creado",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://gorest.co.in/public/v1/users/2611",
+							"protocol": "https",
+							"host": [
+								"gorest",
+								"co",
+								"in"
+							],
+							"path": [
+								"public",
+								"v1",
+								"users",
+								"2611"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 28 Nov 2021 17:40:54 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "strict-origin-when-cross-origin"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"ebf841042854f43e49ff5714ff96ddaa\""
+						},
+						{
+							"key": "Cache-Control",
+							"value": "max-age=0, private, must-revalidate"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "_gorest_co_in_session=%2B8CFPqRn98jtBQ5rxPoVNKmzJFZYXobq936QoXroUcubacfSvAYdycXlLBJTTpKJUfHeR02HGnqHCmHyT2KED1bwr3tjDXI%2BNFTj2JsKhzpJcPxxjAPQBBm6sduS%2FHsR9LYiFmVgBT%2F79UIPalUM2kWLT4qORJpB0z0GULn%2FyoJk25Uh4w%2BQUyq4S9MaSVhXmAEoV3RVUsqHtuCw1AFKctoBtOIQv0rqSyT2ZOd88PjTUEx5l14FfqT2DGO%2FJDLL9fVQx6Mr5gIw5HoCISYfJnNFAgwmsbutLk1GQ58%3D--eWbE1SWMOyquazrz--BAGMr9fnRutusq9MsdrsWg%3D%3D; path=/; secure; HttpOnly; SameSite=Lax"
+						},
+						{
+							"key": "X-Request-Id",
+							"value": "da18f5a2-7d2c-4ed6-9179-fbf47d0ad5f7"
+						},
+						{
+							"key": "X-Runtime",
+							"value": "0.012469"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=63072000; includeSubDomains"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"meta\": null,\n    \"data\": {\n        \"id\": 2611,\n        \"name\": \"Oskar2\",\n        \"email\": \"oskar.2@example.com\",\n        \"gender\": \"male\",\n        \"status\": \"active\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Consultar POSTS",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://gorest.co.in/public/v1/posts?&page=10",
+					"protocol": "https",
+					"host": [
+						"gorest",
+						"co",
+						"in"
+					],
+					"path": [
+						"public",
+						"v1",
+						"posts"
+					],
+					"query": [
+						{
+							"key": null,
+							"value": null
+						},
+						{
+							"key": "page",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Consultar POSTS",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://gorest.co.in/public/v1/posts?&page=10",
+							"protocol": "https",
+							"host": [
+								"gorest",
+								"co",
+								"in"
+							],
+							"path": [
+								"public",
+								"v1",
+								"posts"
+							],
+							"query": [
+								{
+									"key": null,
+									"value": null
+								},
+								{
+									"key": "page",
+									"value": "10"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 28 Nov 2021 17:43:27 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "strict-origin-when-cross-origin"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"d340d063b27c5ea6a6418febe4556279\""
+						},
+						{
+							"key": "Cache-Control",
+							"value": "max-age=0, private, must-revalidate"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "_gorest_co_in_session=9V3gwV6fxGEG5NIRXQAznQrceoJDnWMXn0stqWJQT2DNg3SRaJeIUQmtV5sizLlZ6ulz0DHhluK0vMo%2FBl5GcqyirEaszH%2B4JZfc%2FoeO4CRvUHm2bLIAmtnoxTz1v3JgBxmi46nANm3Zx2LRxfM%2FgW%2FK8%2FUuBKFSwa%2FIQ%2BmxmDtAoz2MIRWALiVgVY1S1ReayfopzBBcLmJV76MFIM8aHt2DuzBrLSET4D9Qkr2%2BgzCqzafUZ%2B3RDYkaWa%2FVGdl1aLaHFtnT2weE72JoU1uvWVWOxDMWzddk4%2BHeip4%3D--mG7UihZGpz9B8YRb--9QkJkZmud4PpEHukmHdLeg%3D%3D; path=/; secure; HttpOnly; SameSite=Lax"
+						},
+						{
+							"key": "X-Request-Id",
+							"value": "c3e4bd52-917a-410f-9969-8d318c8f0074"
+						},
+						{
+							"key": "X-Runtime",
+							"value": "0.020464"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=63072000; includeSubDomains"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"meta\": {\n        \"pagination\": {\n            \"total\": 1341,\n            \"pages\": 68,\n            \"page\": 10,\n            \"limit\": 20,\n            \"links\": {\n                \"previous\": \"https://gorest.co.in/public/v1/posts?page=9\",\n                \"current\": \"https://gorest.co.in/public/v1/posts?page=10\",\n                \"next\": \"https://gorest.co.in/public/v1/posts?page=11\"\n            }\n        }\n    },\n    \"data\": [\n        {\n            \"id\": 167,\n            \"user_id\": 165,\n            \"title\": \"Templum brevis nisi solio cubo nobis inventore somniculosus caritas.\",\n            \"body\": \"Aliqua voluptate virtus. Delibero accipio curto. Velum eos valetudo. Certo theologus stultus. Textor unde constans. Aliqua certe exercitationem. Triumphus adsidue vinculum. Currus statua credo. Tabella tibi capillus. Traho tredecim vestrum. Cresco crapula viriliter. Annus vulgo voro. Acquiro corrupti totus. Paens impedit claustrum. Acquiro commemoro vorago. Culpo atqui dolor. Aegrotatio tendo tenetur. Sed volva synagoga. Doloribus vox sustineo. Ut canto decor. Tamquam ex aufero. Culpo denego collum. Alioqui perspiciatis vulgivagus. Tamdiu cibo synagoga. Calco complectus solutio. Aliquam aperiam conicio. Infit administratio dedecor. Teres defluo cursim. Terga aegrus adfectus.\"\n        },\n        {\n            \"id\": 168,\n            \"user_id\": 165,\n            \"title\": \"Ut cernuus vergo approbo tracto beneficium casso ultio balbus adsuesco stipes coadunatio comitatus soleo antepono.\",\n            \"body\": \"Curatio reiciendis communis. Iste desidero crudelis. Adulescens aveho constans. Audentia creptio accipio. Conforto uter colo. Pecco absum ullus. Vilis curriculum comparo. Accusantium trepide vitiosus. Pax valetudo tamdiu. Vita substantia ulciscor. Aegrus amita supplanto. Vesica degero considero. Usus vilitas sonitus. Colligo coniecto complectus. Certo deinde accusamus. Universe sodalitas quam. Tutamen trepide quisquam. Culpo adicio carmen. Appositus cilicium conservo. Autus spiritus balbus. Capto ait quisquam. Bonus valens spectaculum. Desidero patria trans.\"\n        },\n        {\n            \"id\": 169,\n            \"user_id\": 166,\n            \"title\": \"Arguo crapula amor deleniti a eius armo ipsam.\",\n            \"body\": \"Solium alii despecto. Quidem architecto qui. Tabula solutio nulla. Vacuus pecunia desparatus. Torrens ara ascisco. Carmen canis crur. Aliqua confugo adversus. Tenuis centum odit. Theatrum adaugeo synagoga. Caterva summisse cruciamentum. Pariatur suasoria distinctio. Subseco altus thorax. Patruus ambitus defetiscor. Crastinus deorsum soleo. Asper vita voluptas. Ullam carus suffragium. Tam cetera alo. Tibi autus conventus. Defluo absens sublime. Comparo pauper adfero.\"\n        },\n        {\n            \"id\": 170,\n            \"user_id\": 167,\n            \"title\": \"Ascisco suus adamo ad tam trado sui degenero vado unus sonitus timidus aetas patria audeo curtus.\",\n            \"body\": \"Accusator dolores vigor. Minus succedo virgo. Universe allatus corona. Supplanto dapifer venia. Auditor modi cum. Terra asper sui. Tamen arcus porro. Mollitia tabernus rem. Coadunatio sum conspergo. Annus cibo sortitus. Coaegresco bestia desidero. Condico maxime adicio. Crapula talus bis. Canis sumptus numquam. Cavus certus ab. Soleo tamquam caste. Delinquo curatio tripudio. Decor vitae velut. Aurum amissio denuo. Dolorum tardus thermae. Summopere synagoga ipsa. Turba patruus tremo. Curiositas error civitas. Animi calcar viduata.\"\n        },\n        {\n            \"id\": 171,\n            \"user_id\": 168,\n            \"title\": \"Peccatus dignissimos vespillo arcesso creator vallum trans quia volup omnis cribro ut id suspendo.\",\n            \"body\": \"Ea adicio absorbeo. Ventosus coadunatio cedo. Amissio nostrum id. Unde civis veritas. Velit sint comedo. Possimus aut venustas. Avarus stipes clamo. Aduro thymbra decet. Aperiam stipes copiose. Benigne sonitus curis. Iusto somnus antepono. Cinis voluptatem vaco. Tubineus arca adeptio. Benevolentia sed aut. Cauda ara tubineus. Admitto dolorem decretum.\"\n        },\n        {\n            \"id\": 172,\n            \"user_id\": 168,\n            \"title\": \"Cado tergo assumenda ambulo impedit vado considero cumque testimonium.\",\n            \"body\": \"Tamen bos admiratio. Vir necessitatibus villa. Taceo vinco alienus. Provident desidero cuppedia. Tamquam est verus. Bene arx summopere. Dolores tactus deripio. Vultuosus et crepusculum. Aestus angelus tendo. Caste arcesso addo. Depopulo amo sodalitas. Facere tyrannus coepi. Antepono valde aetas. Qui debitis custodia. Tergo rem terra. Est video odit. Damno tutis libero. Delibero quis studio. Sublime adsidue vilitas. Abbas culpa dolores. Custodia tantillus cogito. Est abscido degero. Expedita sub coruscus. Avarus correptius totus. Credo colo eos. Trado accommodo vestigium.\"\n        },\n        {\n            \"id\": 173,\n            \"user_id\": 170,\n            \"title\": \"Cedo virtus deserunt deduco cubitum aperte summopere angulus constans cum infit ventosus dolor articulus delinquo uberrime sed quo voluntarius.\",\n            \"body\": \"Auctus crudelis teres. Aliqua ante fugit. Harum magnam somnus. Aliquid atavus depromo. Nihil provident subito. Voluptas aut voluptatem. Deserunt sonitus tergum. Volva vinum campana. Certe usitas theologus. Conitor soleo alo. Eaque ulciscor adiuvo. Minus aiunt perspiciatis. Argumentum infit audentia. Certus amplitudo ambulo. Nihil comedo eos. Adstringo delibero sto. Cervus tabesco aufero. Suasoria cohors aliquid. Acidus vulariter amissio. Cubitum tenus cibo. Vel aut ducimus. Vergo deinde illum. Magni velociter tantillus. Baiulus abduco molestiae. Tendo vitae curvo. Aduro sit conculco. Acidus defero excepturi.\"\n        },\n        {\n            \"id\": 174,\n            \"user_id\": 171,\n            \"title\": \"Ipsam alo curriculum aestus ut depraedor debeo totus cultellus eius textus adipisci.\",\n            \"body\": \"Angustus sophismata cribro. Turbo confero delego. Corrigo ex tunc. Allatus uter usus. Solutio nobis adsidue. Abundans utrimque corona. Studio aiunt defleo. Apud videlicet bis. Conqueror confido vado. Pel vorax cibus. Candidus conor civitas. Desino voluptas vitium. Aestas audio animus. Copiose denuncio spoliatio. Quasi stultus civis. Tametsi condico theatrum. Sophismata acervus rerum. Summisse caecus depulso. Vos argentum defessus. Nemo ullam barba. Incidunt animus appono. Aggero adsuesco bardus. Denique delicate deporto.\"\n        },\n        {\n            \"id\": 175,\n            \"user_id\": 171,\n            \"title\": \"Attonbitus sumo strues statim capio aeneus validus.\",\n            \"body\": \"Antepono maiores curso. Adeptio in ut. Antepono at arto. Perspiciatis compono pariatur. Et error candidus. Molestiae voluptatem synagoga. Quia spiritus blanditiis. Velum apparatus magni. Denique charisma antea. Cubicularis causa temperantia. Admoveo vomito illum. Sollicito vomica utrum. Villa eaque valde. Aut quia amplitudo. Velit beatae aiunt. Cunctatio ventus statim. Tenuis tametsi cernuus. Arbitro tolero bestia. Certo velit nesciunt. Thorax temperantia coerceo. Sordeo succurro aer. Vesica cavus numquam.\"\n        },\n        {\n            \"id\": 176,\n            \"user_id\": 172,\n            \"title\": \"Accusamus ipsum coepi templum compello vociferor beatae defendo adnuo adflicto demens vinum calcar perferendis celer.\",\n            \"body\": \"Conventus umbra natus. Sufficio denego cibo. Et cultellus via. Bestia cena turpis. Tenax vobis voco. Corona despirmatio cimentarius. Accommodo trepide tero. Sunt subito tumultus. Ventus caute timor. Conculco tertius thalassinus. Cura subseco vita. Aut vilis trepide. Unde desino bellum. Tero est comis. Conitor voluptas torrens. Demens valde quos. Vultuosus turpis consectetur. Aut vado amiculum. Voluptatem tunc corrigo. Nobis cresco timor.\"\n        },\n        {\n            \"id\": 177,\n            \"user_id\": 173,\n            \"title\": \"Apto vicinus colo deleo cimentarius adiuvo accusantium decipio paulatim acsi.\",\n            \"body\": \"Uxor comes audax. Vacuus porro stultus. Coadunatio agnosco quisquam. Ascisco adeptio alias. Vel defetiscor crudelis. Ventosus traho volup. Terebro baiulus civitas. Vinco aegrotatio pecto. Ante consuasor beatae. Aggero sufficio volutabrum. Tepesco tergum utor. Textor itaque demoror. Commemoro abundans officia. Decimus carbo totam. Id contra et. Tempore suppono abutor. Amiculum consectetur thymbra. Spes vulgo auxilium. Ustulo accendo curso. Temperantia allatus carbo. Fugiat id delibero. Comminor decimus denuncio. Patrocinor beatae in. Caecus toties pel. Ara cuius ut. Coniecto conatus sapiente. Voluptate qui cruentus.\"\n        },\n        {\n            \"id\": 178,\n            \"user_id\": 173,\n            \"title\": \"Suasoria tego supplanto avarus laudantium atrox advenio utpote accedo degenero carbo catena ager sumptus terminatio testimonium suspendo volo.\",\n            \"body\": \"Curvus blandior ex. Tabgo fugit assumenda. Tutis bardus temptatio. Voro cupiditas creator. Soluta ubi allatus. Ars recusandae ait. Capto tactus anser. Utrimque cur depulso. Placeat quasi theatrum. Volva abundans sint. Culpa defigo repellat. Ut auxilium constans. Tabesco solum talio. Canto damnatio casso. Arceo volva vilis. Dolorum inflammatio ante. Currus deludo tempore. Absconditus cresco vestigium. Thalassinus ad occaecati.\"\n        },\n        {\n            \"id\": 179,\n            \"user_id\": 175,\n            \"title\": \"Suasoria accusantium defetiscor suppono cupressus anser decretum canis.\",\n            \"body\": \"Incidunt verumtamen rem. Vilis ultra claro. Vomica utor cito. Nobis calco creta. Accusator odio blanditiis. Tero demitto deserunt. Basium patrocinor tantillus. Creator cogo coepi. Aeternus sulum tabernus. Accendo amo eligendi. Tredecim cunae culpa. Arto cedo usus. Tempora clamo occaecati. Virgo spoliatio somniculosus. Excepturi atrocitas clibanus. Amitto nesciunt est.\"\n        },\n        {\n            \"id\": 180,\n            \"user_id\": 175,\n            \"title\": \"Comminor sui depono asperiores chirographum assentator.\",\n            \"body\": \"Sed valeo custodia. Valetudo assentator sumptus. Validus angelus cernuus. Audeo tabgo tactus. In timor pectus. Quo decretum officia. Eveniet debeo desolo. Valeo verbera calcar. Perferendis vinculum adversus. Stella viduata adulatio. Mollitia vestrum sunt. Umerus vir qui. Vulariter cursus suppono. Confido corrumpo thalassinus. Acervus varius tergum. Autus ea turba. Autem carcer aufero. Contra vox appositus. Arx deripio speculum. Adsidue est non. Delibero tepidus terror. Cado cribro territo.\"\n        },\n        {\n            \"id\": 181,\n            \"user_id\": 176,\n            \"title\": \"Dens spes tripudio amitto dolores aequus veritatis thermae cubitum.\",\n            \"body\": \"Ademptio accommodo tergiversatio. Vulpes atque suadeo. Atqui porro decretum. Aegre derideo temptatio. Currus careo attonbitus. Adicio cometes doloremque. Alveus adicio cupiditas. Sufficio qui villa. Utroque annus torrens. Concedo thesaurus aureus. Complectus autem caecus. Tergiversatio volva omnis. Et ambulo ager. Eos arbor cernuus. Facere dolores vere. Aspicio cena bellicus. Tempus auctor tremo. Patrocinor deleniti assentator. Tenuis sumptus surculus. Molestias cunabula deinde. Averto audeo auxilium. Fuga adhaero comminor. Armarium arbitro sopor. Caecus strues aeneus. Aegrus in atrocitas.\"\n        },\n        {\n            \"id\": 182,\n            \"user_id\": 176,\n            \"title\": \"Sit vulgaris ter complectus dolor antea.\",\n            \"body\": \"Amo consequatur audentia. Via clibanus degusto. Demum adamo corrupti. Cogo quis paens. Voco acidus clibanus. Pecunia venia vaco. Numquam molestiae crur. Vere valde ubi. Deserunt corona tergiversatio. Facilis defaeco derideo. Subito addo calculus. Conforto trepide speciosus. Ut cibus curis. Cupressus provident terror. Atavus carmen earum. Reprehenderit paens amiculum. Aequitas aestivus texo. Textilis desipio consuasor. Sumo arx vindico. Impedit victus amitto. Tempus valde viscus. Qui voluptatibus voluptates. Consuasor certo confugo. Adfectus sed chirographum. Auditor cavus tenax. Deleo creptio quo. Aurum alveus tum.\"\n        },\n        {\n            \"id\": 183,\n            \"user_id\": 177,\n            \"title\": \"Est damnatio confero curatio vobis chirographum color cupiditate laboriosam cubicularis vado decumbo vero adipiscor ratione tergo cicuta.\",\n            \"body\": \"Vinco reprehenderit praesentium. Labore adflicto reiciendis. Est audeo coadunatio. Utroque compello odit. Rerum desino cubo. Dolor et caries. Nihil usitas nostrum. Adopto aut vero. Tribuo creta eius. Auditor bene sunt. Deleniti crebro cumque. Quod adinventitias circumvenio. Ipsa auctor defaeco. Aliquid velociter beatus. Derelinquo victus totidem. Decor artificiose neque. Ut ara vaco. Caritas auctus commodi. Corpus et animi. Sequi tempora valde. Acceptus subnecto qui. Curiositas eos confido. Quam tabgo adduco. Conforto decipio conduco. Accusator stabilis dolore.\"\n        },\n        {\n            \"id\": 184,\n            \"user_id\": 177,\n            \"title\": \"Decerno truculenter sum alii vos commemoro tot agnosco conqueror abduco in quis.\",\n            \"body\": \"Suus supra certus. Cedo amicitia voluptate. Antepono tamquam aut. Conitor tibi pauci. Vorax coruscus quas. Cohors bis turpis. Angustus desparatus asper. Vesper acies decens. Civis tergum tripudio. Currus uxor aptus. Corrigo statua non. Tempore volo vespillo. Et tabernus culpa. Amplexus voluptatibus accommodo. Clamo adulatio ceno. Et vulgus assentator. Sonitus comprehendo coadunatio.\"\n        },\n        {\n            \"id\": 185,\n            \"user_id\": 178,\n            \"title\": \"Communis dapifer sodalitas adflicto sublime modi vestrum tantillus atrocitas defaeco timor.\",\n            \"body\": \"Vester adeptio terga. Conitor tredecim congregatio. Tonsor et vereor. Eos natus beneficium. Cetera carmen vomer. Bellum sub depulso. Unde cruentus vereor. Culpa colloco pauci. Officia somnus abscido. Compello autem bardus. Vallum una adicio. Balbus occaecati amiculum. Veniam sapiente calculus. Voluptates quibusdam stips. Vomica veritas vorago.\"\n        },\n        {\n            \"id\": 186,\n            \"user_id\": 181,\n            \"title\": \"Administratio succedo ipsam sodalitas cognatus demergo uxor ab angustus varietas et non basium videlicet.\",\n            \"body\": \"Deprecator verus creo. Certus vir reprehenderit. Patruus defetiscor arbitro. Utilis atque verecundia. Spargo suscipio vicinus. Curvus deficio tot. Aqua tonsor acceptus. Corroboro claudeo suffoco. Sperno consuasor centum. Ciminatio reiciendis stillicidium. Callide modi somniculosus. Ante coaegresco suggero. Benigne solitudo alienus. Cruciamentum vero eos. Ustulo benevolentia architecto. In sum voluptatem. Administratio conscendo cur. Consequatur tempora video. Usitas vigor tepesco. Strenuus tabesco aranea. Centum vaco claro.\"\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Editar POSTS",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"body\": \"Edición hecha en clase de calidad de software\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://gorest.co.in/public/v1/posts/165",
+					"protocol": "https",
+					"host": [
+						"gorest",
+						"co",
+						"in"
+					],
+					"path": [
+						"public",
+						"v1",
+						"posts",
+						"165"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Editar POSTS",
+					"originalRequest": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"body\": \"Edición hecha en clase de calidad de software\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://gorest.co.in/public/v1/posts/165",
+							"protocol": "https",
+							"host": [
+								"gorest",
+								"co",
+								"in"
+							],
+							"path": [
+								"public",
+								"v1",
+								"posts",
+								"165"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 28 Nov 2021 17:46:43 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "strict-origin-when-cross-origin"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"f39a53c7b9142f428b9a1f781d4be301\""
+						},
+						{
+							"key": "Cache-Control",
+							"value": "max-age=0, private, must-revalidate"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "_gorest_co_in_session=K8r1RyvEyFWVsaoIFqhP6OEoLu50KggE3DibA2X828cJuiOjLkJNcVNodUusxus0G%2Be46FGd9wN0q%2BTPnZIzCxr2umM%2BFzZG33PxmTnDeFJw6g9j5NutX9WkbpX3IWNE2F3KEWDTw3Pg%2BxVUg3KVQgARyCUgKK3R3jbngU%2B8b%2B4ACoQBaCqJFM4lA%2BdW3r22dfahNVzlSWk%2BpsZslTwKx%2F7er6EzQAlW5wFP%2BrSA3%2BwXTuYENMLilsINTOhXGfUw5o%2BQYNQz4EIJGdofFWanvbV4X%2FQySctgUqyXE90%3D--pPnj%2Bs4oDVdb2fRF--ydOf%2BRrMle%2BijNybMOhmlA%3D%3D; path=/; secure; HttpOnly; SameSite=Lax"
+						},
+						{
+							"key": "X-Request-Id",
+							"value": "75ef4c03-7b72-4915-a903-15616aaa587d"
+						},
+						{
+							"key": "X-Runtime",
+							"value": "0.017041"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=63072000; includeSubDomains"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"meta\": null,\n    \"data\": {\n        \"body\": \"Edición hecha en clase de calidad de software\",\n        \"user_id\": 163,\n        \"id\": 165,\n        \"title\": \"Coniecto tabula angelus thermae aperio asper amissio aetas creo aureus amplexus spargo tyrannus defendo adamo est.\"\n    }\n}"
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "oauth2",
+		"oauth2": [
+			{
+				"key": "addTokenTo",
+				"value": "header",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
